@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tabla de multiplicar</title>
+  </head>
+  <body>
+    <b>No.Veces</b>
+    <input type="number" id="fin" value="">
+    <button type="button" onclink ="saludar()"name="button">SALUDAR</button>
+    <script type="text/javascript">
+      function saludar(){
+        var fin=parseInt(
+        document.getElementById("fin").value);
+        for(i=1;i<=fin;i++){
+        alert("HOLA UTC"+i);
+      }
+    }
+    </script>
+  </body>
+</html>
